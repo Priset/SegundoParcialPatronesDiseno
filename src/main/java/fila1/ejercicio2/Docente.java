@@ -2,7 +2,6 @@ package fila1.ejercicio2;
 
 public class Docente extends Persona{
     private String nombre;
-    private String ci;
     public Docente(IChat chat) {
         super(chat);
     }
@@ -13,14 +12,6 @@ public class Docente extends Persona{
 
     public void setNombre(String nombre) {
         this.nombre = nombre;
-    }
-
-    public String getCi() {
-        return ci;
-    }
-
-    public void setCi(String ci) {
-        this.ci = ci;
     }
 
     @Override
