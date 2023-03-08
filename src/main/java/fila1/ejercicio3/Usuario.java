@@ -27,7 +27,7 @@ public class Usuario implements IUsuario{
 
     @Override
     public void update(String msg) {
-        System.out.println("EL usuario: "+getNombre()+ "recibe notificación de: "+getTipoNotificacion()+"\n"+msg);
+        System.out.println("EL usuario: "+getNombre()+ " recibe notificación de: "+getTipoNotificacion()+"\n"+msg);
         System.out.println("**************************************");
     }
 }
